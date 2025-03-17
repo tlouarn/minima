@@ -5,6 +5,9 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
+        <p>{{ site.description | escape }}</p>
+      </div>
+      <div class="footer-col">
         <p class="feed-subscribe">
           <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
             <svg class="svg-icon orange">
@@ -27,9 +30,7 @@
         </ul>
       {%- endif %}
       </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-      </div>
+
     </div>
 
     <div class="social-links">
