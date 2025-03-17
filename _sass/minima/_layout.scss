@@ -26,6 +26,14 @@
   &:visited {
     color: $site-title-color;
   }
+
+  ::first-letter {
+    margin-right:3px;
+    padding:0 7px;
+    border-radius:3px;
+    border:2px solid #000
+  }
+
 }
 
 .site-nav {
