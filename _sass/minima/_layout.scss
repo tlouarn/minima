@@ -27,7 +27,7 @@
     color: $site-title-color;
   }
 
-  ::first-letter {
+  &::first-letter {
     margin-right:3px;
     padding:0 7px;
     border-radius:3px;
