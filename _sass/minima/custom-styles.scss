@@ -19,11 +19,15 @@
     border: none;
 }
 
-h1 {
+
+.post-title {
+    font-size: $base-font-size;
+}
+
+.post-content h1 {
     font-size: $base-font-size;
     font-weight: bolder;
 }
-
 
 img {
     border: 1px solid #FDFDFD;
