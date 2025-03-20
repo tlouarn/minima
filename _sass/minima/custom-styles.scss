@@ -19,10 +19,9 @@
     border: none;
 }
 
-
-
 .post-title {
     @include relative-font-size(1.625);
+    font-weight: bold;
     margin-bottom: 0;
 }
 .post-subtitle {
