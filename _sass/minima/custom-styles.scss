@@ -21,16 +21,15 @@
 
 
 .post-title {
-    font-size: $base-font-size;
+    @include relative-font-size(1.625);
 }
-
 .post-content h1 {
-    font-size: $base-font-size;
+    @include relative-font-size(1.625);
     font-weight: bolder;
 }
 
 img {
-    border: 1px solid #FDFDFD;
+    border: 1px solid #E7E7E7;
 }
 
 img+em {
