@@ -67,6 +67,10 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+img + em {
+  display: block;
+  font-size: 1em;
+}
 
 
 
@@ -104,6 +108,10 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+}
+h1 {
+  font-size: $base-font-size;
+  font-weight: bolder;
 }
 
 
