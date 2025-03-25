@@ -51,7 +51,7 @@
 }
 
 img {
-    /*border: 1px solid #E7E7E7;*/
+    border: 1px solid #E7E7E7;
     padding-left: auto;
     padding-right: auto;
     display: block;
@@ -68,7 +68,6 @@ blockquote {
     border-left: 10px solid #ccc;
     margin: 1.5em;
     padding: 0.5em 10px;
-    quotes: "\201C" "\201D" "\2018" "\2019";
     @include relative-font-size(1.125);
     font-style: italic;
     font-family: KaTeX_Math;
@@ -87,9 +86,6 @@ blockquote {
         font-style: normal;
     }
 
-    p {
-        display: inline;
-    }
 }
 
 hr {
