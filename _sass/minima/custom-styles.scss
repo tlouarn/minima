@@ -1,0 +1,109 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.site-title {
+    letter-spacing: normal;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &::first-letter {
+        margin-right: 3px;
+        padding: 0 0.375em;
+        border-radius: 3px;
+        border: 2px solid #000;
+        font-weight: bolder;
+    }
+}
+
+.site-header {
+    z-index: 101;
+}
+
+.post-header {
+    text-align: left;
+    border: none;
+}
+
+.post-title {
+    @include relative-font-size(1.625);
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.post-subtitle {
+    @include relative-font-size(1.625);
+    color: #747474;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.post-meta {
+    .bullet-divider {
+        padding-inline: 0;
+    }
+}
+
+.post-content h1 {
+    @include relative-font-size(1.625);
+    font-weight: bold;
+}
+
+.post-content {
+    hyphens: auto;
+}
+
+img {
+    border: 1px solid #E7E7E7;
+    padding-left: auto;
+    padding-right: auto;
+    display: block;
+}
+
+img+em {
+    display: block;
+    font-size: $base-font-size * 0.8;
+}
+
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em;
+    padding: 0.5em 10px;
+    @include relative-font-size(1.125);
+    font-style: italic;
+    font-family: KaTeX_Math;
+
+    > :before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+    }
+
+    i,
+    em {
+        font-style: normal;
+    }
+
+}
+
+hr {
+    color: #8c8c8c;
+}
+
+details {
+    border: 1px solid #E7E7E7;
+    padding: 1rem;
+    margin-bottom: $spacing-unit;
+
+    summary {
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+}
